@@ -1,0 +1,40 @@
+html {
+    background-color: grey;
+}
+.Card {
+    margin: auto;
+    background-color: salmon;
+    width: 250px;
+    height: 300px;
+    padding: 5px;
+    color: black;
+    animation-duration: 0.8s;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.Animate {
+    animation-duration: 0.8s;
+    animation-name: animace;
+}
+
+@keyframes animace { 
+    0%{
+        color: salmon;
+    }
+    35%{
+        transform: rotateX(90deg);
+    }
+    75%{
+       transform: rotateX(75deg);
+    }
+    99%{
+        color: black;
+    }
+}
+
+.controls {
+    margin: auto;
+    margin-top: 2%;
+    width: 150px;
+}
